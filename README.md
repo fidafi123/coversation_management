@@ -39,8 +39,9 @@ This repository contains a **Google Colab notebook** (`chat_management.ipynb`) t
    ```bash
    !pip install openai requests pandas
 ```
+
 3. Set Groq API key:
-```bash
+
 import os
 os.environ["GROQ_API_KEY"] = "your_api_key_here"
 ```
