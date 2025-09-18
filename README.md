@@ -38,13 +38,14 @@ This repository contains a **Google Colab notebook** (`chat_management.ipynb`) t
 2. Install dependencies:
    ```bash
    !pip install openai requests pandas
-```
+   ```
 
 3. Set Groq API key:
-
-import os
-os.environ["GROQ_API_KEY"] = "your_api_key_here"
-```
+   
+   ```bash
+   import os
+   os.environ["GROQ_API_KEY"] = "your_api_key_here"
+   ```
 4. Run cells for:
 - Task 1: Conversation Manager
 - Task 2: Schema Extraction
